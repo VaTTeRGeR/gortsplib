@@ -259,7 +259,7 @@ func (ss *ServerSession) initialize() {
 	ctx, ctxCancel := context.WithCancel(ss.s.ctx)
 
 	// use an UUID without dashes, since dashes confuse some clients.
-	secretID := strings.ReplaceAll(uuid.New().String(), "-", "")
+	secretID := strings.ReplaceAll(uuid.New().String(), "-", "")[0:23]
 
 	ss.secretID = secretID
 	ss.ctx = ctx

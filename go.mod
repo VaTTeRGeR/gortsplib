@@ -1,4 +1,4 @@
-module github.com/bluenviron/gortsplib/v4
+module github.com/VaTTeRGeR/gortsplib/main
 
 go 1.21
 

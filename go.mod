@@ -1,4 +1,4 @@
-module github.com/VaTTeRGeR/gortsplib/main
+module github.com/VaTTeRGeR/gortsplib
 
 go 1.21
 
